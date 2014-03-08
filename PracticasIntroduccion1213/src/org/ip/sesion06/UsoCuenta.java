@@ -20,11 +20,9 @@ public class UsoCuenta {
 		//CREACION DE OBJETOS CON VALOR PREDERTERMINADO
 		Cuenta cuenta1 = new Cuenta(10000);
 		Cuenta cuenta2 = new Cuenta(700);
+		
 		//CREACION DE OBJETO DE REFERENCIA PARA REALIZAR LAS OPERACIONES
 		Cuenta cuentaGenerica = new Cuenta();
-		
-		cuenta1.retirar(50);
-		System.out.println("Restar "+cuenta1.saldoActual());
 		
 		//MOSTAR SALDO INCIAL DE LAS CUENTAS
 		System.out.println("En la cuenta 1 el saldo incial es de: "+cuenta1.saldoActual()+" Û");
