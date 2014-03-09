@@ -13,7 +13,7 @@ public class AdivinaNumero {
 		aleatorio=(int) (Math.random()*rango);
 		
 		do{
-			System.out.println("Introduce un numero");
+			System.out.println("Introduce un numero:");
 			numero=EntradaInteractiva.leerEntero();
 			
 			if(numero>rango){
@@ -25,7 +25,7 @@ public class AdivinaNumero {
 				intentos++;
 				System.out.println("El numero es menor");
 			}else{
-				System.out.println("HAS ACERTADO");
+				System.out.println("¡HAS ACERTADO!");
 				intentos++;
 			}
 		}while(numero!=aleatorio);
