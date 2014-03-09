@@ -25,7 +25,7 @@ public class AdivinaNumero {
 				intentos++;
 				System.out.println("El numero es menor");
 			}else{
-				System.out.println("¡HAS ACERTADO!");
+				System.out.println("ÁHAS ACERTADO!");
 				intentos++;
 			}
 		}while(numero!=aleatorio);
